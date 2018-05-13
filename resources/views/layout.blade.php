@@ -19,7 +19,7 @@
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="../">
-              <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
+              <img src="https://ugc.kn3.net/i/origin/http://2.bp.blogspot.com/-aYA4tADymLE/UQOVrWaWSxI/AAAAAAAAAOQ/APG0K2GyB08/s1600/bienvenidos.png" alt="Logo" width="200" height="500">
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
@@ -63,19 +63,17 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-          The new standard in &lt;insert industry here&gt;
+          TEA-acompaño &lt;Entre mayor el desafío mayor es la victoria&gt;
         </h1>
-        <h2 class="subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <img src="http://saludiario.grupodecomunicac.netdna-cdn.com/wp-content/uploads/2016/10/autismo-730x487.jpg" alt="Autismo" width="500" height="300">
+        <h2 class="subtitle"> Juntos hacia el futuro!
         </h2>
       </div>
     </div>
-
   </section>
-
   <div class="box cta">
     <p class="has-text-centered">
-      <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <span class="tag is-primary">TEA-acompaño</span> En este camino, la unión y el amor es quien nos lleva a la victoria!.
     </p>
   </div>
 

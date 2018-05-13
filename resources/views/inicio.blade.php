@@ -12,9 +12,9 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h4>Tristique senectus et netus et. </h4>
-              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-              <p><a href="#">Learn more</a></p>
+              <h4>Que es el autismo?. </h4>
+              <p>El autismo es un trastorno neurológico complejo que generalmente dura toda la vida. Es parte de un grupo de trastornos conocidos como trastornos del espectro autista (ASD por sus siglas en inglés).</p>
+              <p><a href="https://www.autismspeaks.org/qu%C3%A9-es-el-autismo">Leer mas</a></p>
             </div>
           </div>
         </div>
@@ -26,9 +26,9 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h4>Tempor orci dapibus ultrices in.</h4>
-              <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.</p>
-              <p><a href="#">Learn more</a></p>
+              <h4>Tipos de autismo.</h4>
+              <p>El autismo generalmente se diagnostica a la edad de 3 años y es importante tratarlo con la ayuda de un profesional. Hoy en día hay cuatro más tipos de autismo que voy a explicar a continuación. No te pierdas los detalles de las características de cada uno de ellos para saber diferenciarlos.</p>
+              <p><a href="https://tiposdeautismo.com/">Leer mas</a></p>
             </div>
           </div>
         </div>
@@ -40,9 +40,9 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h4> Leo integer malesuada nunc vel risus.  </h4>
-              <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-              <p><a href="#">Learn more</a></p>
+              <h4> Cuales son los sintomas y signos?.  </h4>
+              <p>Los signos y síntomas del Autismo tanto en niños como en adultos, los signos y características del Trastorno del Espectro Autista (TEA) afectarán las relaciones sociales, la comunicación y los comportamientos e intereses.</p>
+              <p><a href="https://tiposdeautismo.com/cuales-son-los-signos-y-sintomas-del-autismo/">Leer mas</a></p>
             </div>
           </div>
         </div>
@@ -50,10 +50,10 @@
     </div>
 
     <div class="intro column is-8 is-offset-2">
-      <h2 class="title">Perfect for developers or designers!</h2><br>
-      <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
+      <h2 class="title">Perfecto, si estas acá, es hora que comencemos a trabajar juntos!!</h2><br>
+      <p class="subtitle">Nuestro propósito principal es crear una comunidad de ayuda, acá estaremos para compartir nuestras experiencias. Ponemos a disposición nuestras redes sociales y noticias, ademas de secciones de foro y chat.</p>
     </div>
-
+    <!--
     <div class="sandbox">
       <div class="tile is-ancestor">
         <div class="tile is-parent is-shady">
@@ -78,33 +78,34 @@
           </article>
         </div>
       </div>
-
+      -->
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
           <div class="tile">
             <div class="tile is-parent is-vertical">
               <article class="tile is-child notification is-white">
-                <p class="title">Vertical tiles</p>
-                <p class="subtitle">Top box</p>
+                <p class="title">Material descargable</p>
+                <p class="subtitle">Libros, pictogramas, juegos</p>
               </article>
+              <!--
               <article class="tile is-child notification is-white">
                 <p class="title">Vertical tiles</p>
                 <p class="subtitle">Bottom box</p>
               </article>
+            -->
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification is-white">
-                <p class="title">Middle box</p>
-                <p class="subtitle">With an image</p>
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/640x480.png">
-                </figure>
-              </article>
+                <p class="title">Twitter</p>
+                <p class="subtitle">Siguenos en nuestro twitter</p>
+                <article>
+                  <a class="twitter-timeline" href="https://twitter.com/AcompanoTea?ref_src=twsrc%5Etfw">Tweets de Tea-Acompaño</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                </article>
             </div>
           </div>
           <div class="tile is-parent is-shady">
             <article class="tile is-child notification is-white">
-              <p class="title">Wide column</p>
+              <p class="title">"Material descargable"</p>
               <p class="subtitle">Aligned with the right column</p>
               <div class="content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
@@ -115,8 +116,8 @@
         <div class="tile is-parent is-shady">
           <article class="tile is-child notification is-white">
             <div class="content">
-              <p class="title">Contactanos</p>
-              <p class="subtitle">No dudes en hacerlo!</p>
+              <p class="title">Chatea con nosotros</p>
+              <p class="subtitle">Desde el Messenger de Facebook!</p>
               <div class="content">
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTeaAyudo%2F&tabs=messages&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=193751147899457" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
               </div>
