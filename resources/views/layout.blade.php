@@ -29,30 +29,40 @@
           </div>
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item" href="/">
+              <a class="navbar-item" href="inicio">
                 Inicio
               </a>
               <a class="navbar-item" href="about">
                 Sobre nosotros
               </a>
-              <a class="navbar-item" href="foro">
-                Foro
+              @auth
+              <a class="navbar-item" href="https://josearandav.github.io/Tea-Docs/docs/">
+                Zona de descargas
               </a>
-              <a class="navbar-item" href="contacto">
+              @endauth
+           <!--  <a class="navbar-item" href="contacto">
                 Contacto
-              </a>
+              </a> -->
+              @guest
               <a class="navbar-item" href="register">
                 Registro
               </a>
+
               <a class="navbar-item" href="login">
                 Login
               </a>
+              @endguest
+              @auth
+               <a class="navbar-item" href="/">
+                Deslogear
+              </a>
+              @endauth
               <span class="navbar-item">
-                <a class="button is-white is-outlined is-small" href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html">
+                <a class="button is-white is-outlined is-small" href="http://127.0.0.1:8000/logout">
                   <span class="icon">
                     <i class="fa fa-github"></i>
                   </span>
-                  <span>View Source</span>
+                  <span>Ver el codigo</span>
                 </a>
               </span>
             </div>

@@ -1,8 +1,5 @@
 @extends('layout')
-
 @section('content')
-
-
   <section class="container">
     <div class="columns features">
       <div class="column is-4">
@@ -84,15 +81,16 @@
           <div class="tile">
             <div class="tile is-parent is-vertical">
               <article class="tile is-child notification is-white">
-                <p class="title">Material descargable</p>
-                <p class="subtitle">Libros, pictogramas, juegos</p>
+                <p class="title">Noticia de la semana</p>
+                <p class="subtitle">Noticias y actualidad</p>
+                <iframe src="https://www.publimetro.cl/cl/noticias/2018/04/02/autismo-autista.html" width="380" height="510" marginwidth="0" marginheight="0" frameborder="no" scrolling="yes" style="border:0px;"></iframe>
               </article>
               <!--
               <article class="tile is-child notification is-white">
                 <p class="title">Vertical tiles</p>
                 <p class="subtitle">Bottom box</p>
-              </article>
-            -->
+              </article>  
+              -->            
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification is-white">
@@ -106,9 +104,9 @@
           <div class="tile is-parent is-shady">
             <article class="tile is-child notification is-white">
               <p class="title">"Material descargable"</p>
-              <p class="subtitle">Aligned with the right column</p>
+              <p class="subtitle">Sección con aportes de la comunidad!</p>
               <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                <p> Puedes acceder a nuestra plataforma de material descargable con solo <b>registrándote</b> en nuestra web, alli encontraras material didactico, libros, cursos o tutoriales, juegos. También puedes hacer aportes a esta sección registrándote en la aplicación y envianos un mail comentando el tipo de material que quieres aportar. </p>
               </div>
             </article>
           </div>
@@ -126,7 +124,7 @@
         </div>
       </div>
 
-      <div class="tile is-ancestor">
+ <!--     <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification is-white">
             <p class="title">Side column</p>
@@ -135,13 +133,26 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
             </div>
           </article>
-        </div>
+        </div> -->
         <div class="tile is-parent is-8 is-shady">
           <article class="tile is-child notification is-white">
-            <p class="title">Main column</p>
-            <p class="subtitle">With some content</p>
+            <p class="title">Sitios web de interés</p>
+            <p class="subtitle">Publicaremos links de interés, y noticias</p>
             <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>
+              <ul>
+                <li>
+                  <a href="https://amasperger.wordpress.com/">Amasperger</a>
+                  <br>
+                  <a href="http://www.autismochile.org/">Autismo Chile</a>
+                  <br>
+                  <a href="http://apoyoautismochile.blogspot.com/">Apoyo Autismo Chile</a>
+                  <br>
+                  <a href="https://educrea.cl/educacion-y-autismo-la-importancia-del-estimulo-visual/">Educrea Chile</a>
+                  <br>
+                </li>
+              </ul>
+              </p>
             </div>
           </article>
         </div>
@@ -149,3 +160,4 @@
     </div>
   </section>
  @stop
+ 

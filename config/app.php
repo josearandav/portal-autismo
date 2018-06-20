@@ -150,7 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        DevDojo\Chatter\ChatterServiceProvider::class,
         /*
          * Application Service Providers...
          */
