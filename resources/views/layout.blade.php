@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tea-Acompaño</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
- <!-- Bulma Version 0.6.2-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" integrity="sha256-2k1KVsNPRXxZOsXQ8aqcZ9GOOwmJTMoOB5o5Qp1d6/s=" crossorigin="anonymous" />
-     <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Bulma Version 0.7.1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/hero.css">
+<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 </head>
 <body>
 
@@ -19,17 +21,51 @@
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="../">
-              <img src="https://ugc.kn3.net/i/origin/http://2.bp.blogspot.com/-aYA4tADymLE/UQOVrWaWSxI/AAAAAAAAAOQ/APG0K2GyB08/s1600/bienvenidos.png" alt="Logo" width="200" height="500">
+              <img src="http://www.espiralsantacruz.com/wp-content/uploads/2017/02/ada75c21274f58497cd22cda18cadf15.png" alt="Logo">  
             </a>
+            <!--menu responsivo-->
             <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
               <span></span>
               <span></span>
               <span></span>
             </span>
           </div>
+
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item" href="inicio">
+              <div class="tabs is-right">
+                <ul>
+                <li><a class="navbar-item" href="inicio">
+                Inicio
+              </a></li>
+                <li><a class="navbar-item" href="about">
+                Sobre nosotros
+              </a></li>
+              @auth
+                <li><a class="navbar-item" href="https://josearandav.github.io/Tea-Docs/docs/">
+                Zona de descargas
+              </a></li>
+              @endauth
+              @guest
+                <li><a class="navbar-item" href="register">
+                Registro
+              </a></li>
+
+                <li><a class="navbar-item" href="login">
+                Login
+              </a></li>
+              @endguest
+              @auth
+                <li><a class="navbar-item" href="/">
+                Deslogear
+              </a></li>
+              @endauth
+
+                </ul>
+              <!--<a class="navbar-item" href="inicio">
                 Inicio
               </a>
               <a class="navbar-item" href="about">
@@ -40,9 +76,6 @@
                 Zona de descargas
               </a>
               @endauth
-           <!--  <a class="navbar-item" href="contacto">
-                Contacto
-              </a> -->
               @guest
               <a class="navbar-item" href="register">
                 Registro
@@ -56,7 +89,7 @@
                <a class="navbar-item" href="/">
                 Deslogear
               </a>
-              @endauth
+              @endauth-->
               <span class="navbar-item">
                 <a class="button is-white is-outlined is-small" href="http://127.0.0.1:8000/logout">
                   <span class="icon">
