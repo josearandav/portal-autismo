@@ -1,3 +1,7 @@
+document.querySelectorAll("#nav li").forEach(function(navEl) {
+  navEl.onclick = function() { toggleTab(this.id, this.dataset.target); }
+});
+
 function toggleTab(selectedNav, targetId) {
   var navEls = document.querySelectorAll("#nav li");
 
