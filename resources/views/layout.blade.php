@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tea-Acompaño</title>
+        <title>TEA-acompaño</title>
         <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -13,25 +14,24 @@
         <link rel="stylesheet" type="text/css" href="../css/hero.css">
         <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     </head>
-<body>
-          <section class="hero is-info is-medium is-bold">
+    <body>
+        <section class="hero is-info is-medium is-bold">
             <div class="hero-head">
                 <nav class="navbar">
                     <div class="container">
-                    <div class="navbar-brand">
-            <a class="navbar-item" href="../">
-              <img src="http://www.espiralsantacruz.com/wp-content/uploads/2017/02/ada75c21274f58497cd22cda18cadf15.png" alt="Logo">  
-            </a>
-            <!--Menu responsivo-->
-              <span class="navbar-burger burger" data-target="navbarMenu">
-                 <span></span>
-                 <span></span>
-                 <span></span>
-                 <span></span>
-                 <span></span>
-                 <span></span>
-              </span>
-              </div>
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="../">
+                                <img src="http://www.espiralsantacruz.com/wp-content/uploads/2017/02/ada75c21274f58497cd22cda18cadf15.png" alt="Logo">
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
                <div id="navbarMenu" class="navbar-menu">
                   <div class="navbar-end">
                   <div class="tabs is-right">
@@ -136,10 +136,8 @@
         </p>
       </div>
     </div>
-  </footer>
-  <script async type="text/javascript" src="../js/bulma.js"></script>
   <script src="../js/bulma.js"></script>
+  </footer>
 </body>
 </html>
-
  
