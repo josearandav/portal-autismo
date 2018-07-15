@@ -37,6 +37,12 @@ if (token) {
 } else {
     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
+function toggleBurger() {
+    var burger = $('.burger');
+    var menu = $('.navbar-menu');
+    burger.toggleClass('is-active');
+    menu.toggleClass('is-active');
+}
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

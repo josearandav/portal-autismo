@@ -20,3 +20,9 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 const app = new Vue({
     el: '#app'
 });
+function toggleBurger() {
+    var burger = $('.burger');
+    var menu = $('.navbar-menu');
+    burger.toggleClass('is-active');
+    menu.toggleClass('is-active');
+}
