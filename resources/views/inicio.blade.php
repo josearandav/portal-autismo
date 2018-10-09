@@ -133,10 +133,10 @@
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification is-white">
-            <p class="title">Side column</p>
-            <p class="subtitle">With some content</p>
+            <p class="title">CHAT</p>
+            <p class="subtitle">Unete a nuestro chat y participa de la comunidad.</p>
             <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>Pronto tendremos nuestro chat, daremos aviso de los avances en nuestra FanPage: https://www.facebook.com/TeaAyudo/</p>
             </div>
           </article>
         </div> -->
