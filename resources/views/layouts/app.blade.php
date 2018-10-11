@@ -57,6 +57,9 @@
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        <form class="" action="{{url('/logout')}}" method="post">
+                                            <button type="submit" name="logout" class="btn">Log out</button>
+                                        </form>
                                         @csrf
                                     </form>
                                 </div>
