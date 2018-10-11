@@ -48,7 +48,7 @@
 
     <div class="intro column is-8 is-offset-2">
       <h2 class="title">Perfecto, si estas acá, es hora que comencemos a trabajar juntos!!</h2><br>
-      <p class="subtitle">Nuestro propósito principal es crear una comunidad de ayuda, acá estaremos para compartir nuestras experiencias. Ponemos a disposición nuestras redes sociales y noticias, ademas de secciones de foro y chat.</p>
+      <p class="subtitle">Nuestro propósito principal es crear una comunidad de ayuda, acá estaremos para compartir nuestras experiencias. Ponemos a disposición nuestras redes sociales y noticias, ademas de secciones de descargas de material y chat.</p>
     </div>
     <!--
     <div class="sandbox">
